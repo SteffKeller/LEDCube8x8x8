@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\cmsis_boot /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\src /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\STM32F4xx_StdPeriph_Driver /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\cmsis_lib /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\Projects\LED Cube /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\Projects /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\cmsis /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\cmsis_lib\include /I..\..\..\..\..\Users\Steff\Documents\CoocoxProjekt\STM32F4xx_StdPeriph_Driver\inc">
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_pwr.h" lastModified="13bafce4dea">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h" lastModified="13b79eccc19">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13bafce4df4">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\gameoflife.h" lastModified="12d49e57aa0">
+      </source>
+      <source file="..\..\..\..\src\gameoflife.c" lastModified="142669fbd31">
+         <include file="..\..\..\..\src\gameoflife.h"/>
+         <include file="..\..\..\..\src\cube.h"/>
+         <include file="..\..\..\..\src\draw.h"/>
+      </source>
+      <source file="..\..\..\..\src\keys.c" lastModified="13c87a7a41b">
+         <include file="..\..\..\..\src\keys.h"/>
+      </source>
+      <source file="..\..\..\..\src\font.c" lastModified="13bafce49eb">
+         <include file="..\..\..\..\src\font.h"/>
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h" lastModified="13b79eccc26">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="13bafce4cce">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h" lastModified="13b79eccc17">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h" lastModified="13b79eccc38">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="13bafce4d08">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h" lastModified="13bafce4dd3">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h" lastModified="13b79eccc27">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_hash_md5.c" lastModified="13bafce4cdf">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h" lastModified="13b79eccc3a">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h" lastModified="13b79eccc1b">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_hash.c" lastModified="13bafce4d16">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="13bafce4ce6">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="13bafce4e04">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13bafce4cf1">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\misc.c" lastModified="13bafce4ceb">
+         <include file="..\..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h" lastModified="13b79eccc1d">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13bafce4dce">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h" lastModified="13b79eccc40">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13bafce4dde">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h" lastModified="13bafce4de4">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h" lastModified="13b79eccc1a">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="13bafce4e0a">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\launch_effect.h" lastModified="1426d02c58c">
+         <include file="..\..\..\..\src\cube.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="13bafce4cd9">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h" lastModified="13b79eccc1c">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h" lastModified="13b79eccc3b">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\misc.h" lastModified="13bafce4def">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="13bafce4dd9">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="13bafce4d02">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13bafce4dff">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_hash_sha1.c" lastModified="13bafce4d0c">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\..\src\draw.h" lastModified="14265f9e5ad">
+         <include file="..\..\..\..\src\cube.h"/>
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\src\draw_3d.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h" lastModified="13b79eccc1f">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\eeprom.h" lastModified="132ede34880">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13bafce4cfd">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13bafce4d11">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\src\3d.h" lastModified="142665e2d71">
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h" lastModified="13b79eccc37">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13bafce4cd4">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\cmsis /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\STM32F4xx_StdPeriph_Driver /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\Projects /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\cmsis_boot /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\src /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\Projects\LED Cube /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\cmsis_lib\include /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\STM32F4xx_StdPeriph_Driver\inc /I..\..\..\..\..\Users\skell_000.STEFF-DESKTIOP\Documents\CoocoxProjekt\Projects\LED Cube\LED_Cube\cmsis_lib">
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_pwr.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis\core_cm4_simd.h" lastModified="13bafce5040">
+      </source>
+      <source file="..\..\..\..\src\gameoflife.h" lastModified="12d49e57aa0">
+      </source>
+      <source file="..\..\..\..\src\gameoflife.c" lastModified="142669fbd30">
+         <include file="..\..\..\..\src\gameoflife.h"/>
+         <include file="..\..\..\..\src\cube.h"/>
+         <include file="..\..\..\..\src\draw.h"/>
+      </source>
+      <source file="..\..\..\..\stdio\printf.c" lastModified="13bafce5428">
+      </source>
+      <source file="..\..\..\..\src\keys.h" lastModified="13c87f9e9c0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\eeprom.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\src\font.h" lastModified="13bafce4870">
+      </source>
+      <source file="..\..\..\..\src\keys.c" lastModified="13c87a7a340">
+         <include file="..\..\..\..\src\keys.h"/>
+      </source>
+      <source file="..\..\..\..\src\font.c" lastModified="13bafce4870">
+         <include file="..\..\..\..\src\font.h"/>
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="13c82890b88">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis\core_cmInstr.h" lastModified="13bafce5040">
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\effect.h" lastModified="1426cfd2de8">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\src\cube.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_hash_md5.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\effect.c" lastModified="142771cafb0">
+         <include file="..\..\..\..\src\effect.h"/>
+         <include file="..\..\..\..\src\draw.h"/>
+         <include file="..\..\..\..\src\font.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_hash.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13bafce4870">
+      </source>
+      <source file="..\..\..\..\main.c" lastModified="142aa9c6308">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\src\3d.h"/>
+         <include file="..\..\..\..\src\draw_3d.h"/>
+         <include file="..\..\..\..\src\cube.h"/>
+         <include file="..\..\..\..\src\effect.h"/>
+         <include file="..\..\..\..\src\launch_effect.h"/>
+         <include file="..\..\..\..\src\draw.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\eeprom.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\..\src\keys.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\syscalls\syscalls.c" lastModified="13bafce5810">
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis\core_cm4.h" lastModified="13bbf56a5a8">
+         <include file="..\..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\misc.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis\core_cmFunc.h" lastModified="13bafce5040">
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13bafce4870">
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14276db8030">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\launch_effect.h" lastModified="1426d02c398">
+         <include file="..\..\..\..\src\cube.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="13c82890b88">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\stm32f4xx_it.h" lastModified="13c87bfbb38">
+         <include file="..\..\..\..\src\keys.h"/>
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\cube.h" lastModified="13bafce4c58">
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\stm32f4xx_it.c" lastModified="14276fa0898">
+         <include file="..\..\..\..\stm32f4xx_it.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\src\cube.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13bafce4870">
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\misc.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\draw_3d.h" lastModified="12d49e8baa8">
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\draw_3d.c" lastModified="14265fc8fc0">
+         <include file="..\..\..\..\src\draw_3d.h"/>
+         <include file="..\..\..\..\src\draw.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_hash_sha1.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\..\src\draw.h" lastModified="14265f9e428">
+         <include file="..\..\..\..\src\cube.h"/>
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\src\draw_3d.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\eeprom.h" lastModified="132ede34880">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\src\draw.c" lastModified="1427720e9b8">
+         <include file="..\..\..\..\src\draw.h"/>
+         <include file="..\..\..\..\src\draw_3d.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\src\eeprom.c" lastModified="13c82920c38">
+         <include file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\eeprom.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\src\3d.h" lastModified="142665e2c08">
+      </source>
+      <source file="..\..\..\..\..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h" lastModified="13b79eccba0">
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\stm32f4xx.h" lastModified="14276db8418">
+         <include file="..\..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13bafce4c58">
+         <include file="..\..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\src\3d.c" lastModified="14276db93b8">
+         <include file="..\..\..\..\src\draw.h"/>
+         <include file="..\..\..\..\src\draw_3d.h"/>
+         <include file="..\..\..\..\src\3d.h"/>
+      </source>
+   </includePath>
+</dependencies>

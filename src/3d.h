@@ -1,0 +1,20 @@
+#ifndef EFFECT3D_H
+#define EFFECT3D_H
+
+
+void effect_rotate_random_pixels (int iterations, int delay, int pixels);
+
+void linespin (int iterations, int delay);
+void sinelines (int iterations, int delay);
+void sidewaves (int iterations, int delay);
+void spheremove (int iterations, int delay);
+void effect_rotate_random_pixels (int iterations, int delay, int pixels);
+void ripples (int iterations, int delay);
+float distance2d (float x1, float y1, float x2, float y2);
+float distance3d (float x1, float y1, float z1, float x2, float y2, float z2);
+
+void fireworks (int iterations, int n, int delay);
+
+//typedef struct {float x; float y; float z;} vertex;
+
+#endif

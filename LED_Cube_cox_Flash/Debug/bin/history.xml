@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -Wl -nostartfiles -g -Map=LED_Cube_cox_Flash.map -O1 --gc-sections -lgcc -lc -lm -LC:\CooCox\CoIDE\workspace\LED_Cube_cox_Flash -TC:\CooCox\CoIDE\workspace\LED_Cube_cox_Flash/arm-gcc-link.ld -g -L..\..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.6 2012q2\arm-none-eabi\lib\armv7e-m\fpu -lm">
+      <target file="LED_Cube_cox_Flash.elf" lastModified="13b910a9bd2">
+         <source file="..\..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.6 2012q2\arm-none-eabi\lib\armv7e-m\fpu\libm.a" lastModified="137e6c0a570"/>
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="13b91068554"/>
+         <source file="..\obj\stm32f4xx_hash.o" lastModified="13b9106860f"/>
+         <source file="..\obj\stm32f4xx_hash_sha1.o" lastModified="13b910686bb"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="13b910687f3"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="13b910688ec"/>
+         <source file="..\obj\stm32f4xx_hash_md5.o" lastModified="13b91068998"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="13b910689f6"/>
+         <source file="..\obj\main.o" lastModified="13b910a98b3"/>
+         <source file="..\obj\effect.o" lastModified="13b91068dfb"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="13b91068f52"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="13b91068fee"/>
+         <source file="..\obj\font.o" lastModified="13b9106907b"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="13b910691d2"/>
+         <source file="..\obj\printf.o" lastModified="13b910692db"/>
+         <source file="..\obj\draw.o" lastModified="13b91069471"/>
+         <source file="..\obj\stm32f4xx_fsmc.o" lastModified="13b9106956a"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="13b91069635"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="13b9106975e"/>
+         <source file="..\obj\gameoflife.o" lastModified="13b91069828"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="13b910698e4"/>
+         <source file="..\obj\syscalls.o" lastModified="13b910699ce"/>
+         <source file="..\obj\launch_effect.o" lastModified="13b91069aa8"/>
+         <source file="..\obj\misc.o" lastModified="13b91069b34"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="13b91069e12"/>
+      </target>
+   </processor>
+</history>
